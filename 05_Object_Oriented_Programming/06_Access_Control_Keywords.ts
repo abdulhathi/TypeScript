@@ -1,4 +1,4 @@
-class SchoolStudent {
+class SchoolStudentA {
     private id: number;  // private id
     name: string;        // public name
 
@@ -12,7 +12,7 @@ class SchoolStudent {
     }
 }
 
-const std = new SchoolStudent(1001, "abdul")
+const std = new SchoolStudentA(1001, "abdul")
 console.log(std);
 
 
